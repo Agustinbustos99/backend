@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Smartphone",
+        "photo": "smartphone.jpg",
+        "category": "Electrónicos",
+        "price": 599.99,
+        "stock": 20
+    },
+    {
+        "id": 2,
+        "title": "Laptop",
+        "photo": "laptop.jpg",
+        "category": "Informática",
+        "price": 899.99,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "title": "Smart TV",
+        "photo": "tv.jpg",
+        "category": "Electrónicos",
+        "price": 799.99,
+        "stock": 15
+    },
+    {
+        "id": 4,
+        "title": "Tablet",
+        "photo": "tablet.jpg",
+        "category": "Electrónicos",
+        "price": 299.99,
+        "stock": 30
+    },
+    {
+        "id": 5,
+        "title": "Cámara",
+        "photo": "camera.jpg",
+        "category": "Fotografía",
+        "price": 499.99,
+        "stock": 25
+    },
+    {
+        "id": 6,
+        "title": "Auriculares",
+        "photo": "headphones.jpg",
+        "category": "Electrónicos",
+        "price": 99.99,
+        "stock": 50
+    },
+    {
+        "id": 7,
+        "title": "Monitor",
+        "photo": "monitor.jpg",
+        "category": "Informática",
+        "price": 349.99,
+        "stock": 20
+    },
+    {
+        "id": 8,
+        "title": "Teclado",
+        "photo": "keyboard.jpg",
+        "category": "Informática",
+        "price": 49.99,
+        "stock": 40
+    },
+    {
+        "id": 9,
+        "title": "Mouse",
+        "photo": "mouse.jpg",
+        "category": "Informática",
+        "price": 19.99,
+        "stock": 60
+    },
+    {
+        "id": 10,
+        "title": "Altavoces",
+        "photo": "speakers.jpg",
+        "category": "Electrónicos",
+        "price": 149.99,
+        "stock": 15
+    }
+]

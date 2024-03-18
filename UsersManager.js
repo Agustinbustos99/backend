@@ -1,20 +1,25 @@
 class UsersManager {
-    constructor() {
-        this._users = []; // variable privada para almacenar los usuarios
-        this._userIdCounter = 1; // contador para el ID de usuarios
-    }
+    
+    static #users = [];
 
-    create(userData) {
+   
+    static createUser(userData) {
+     
+        if (!userData.name || !userData.email || !userData.password || !userData.role) {
+            throw new Error('Todos los campos son requeridos para crear un usuario.');
+        }
+
         const newUser = {
-            id: this._userIdCounter++,
+            id: UsersManager.#users.length + 1,
             ...userData
         };
 
-        this._users.push(newUser);
+        UsersManager.#users.push(newUser);
     }
 
-    read() {
-        return this._users;
+   
+    static readUsers() {
+        return UsersManager.#users;
     }
 }
 

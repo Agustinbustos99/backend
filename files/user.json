@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "photo": "default.jpg",
+        "name": "Juan",
+        "email": "juan@example.com",
+        "password": "123456",
+        "role": "usuario"
+    },
+    {
+        "id": 2,
+        "photo": "default.jpg",
+        "name": "María",
+        "email": "maria@example.com",
+        "password": "password",
+        "role": "usuario"
+    },
+    {
+        "id": 3,
+        "photo": "default.jpg",
+        "name": "Carlos",
+        "email": "carlos@example.com",
+        "password": "qwerty",
+        "role": "usuario"
+    },
+    {
+        "id": 4,
+        "photo": "default.jpg",
+        "name": "Laura",
+        "email": "laura@example.com",
+        "password": "abcdef",
+        "role": "usuario"
+    }
+]
